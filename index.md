@@ -11,16 +11,16 @@
 
 1. one
 2. two
-3. three
+
 
 Horiontal rule:
 
 ---
 
-`This is supposed to be inline code` did it work?
+`This is supposed to be inline code` It works!
 
 ```
 #This is a code block
-testing
+Not testing anymore. It works
 ```
 
