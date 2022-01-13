@@ -1,9 +1,8 @@
 **Hello, my name is Abraham.**
 *This is lab 2.*
 
-# Here are some pictures of animals:
+# Here is a picture of a turtle:
 - ![turtle](https://s28164.pcdn.co/files/sea-turtle-iStock_000011381141Large-e1547156592926-1280x720.jpg)
-- ![lion](https://nationalzoo.si.edu/sites/default/files/animals/exhibit/africanlion-005.jpg)
 
 ## Random link:
 - [Github](https://github.com/)
