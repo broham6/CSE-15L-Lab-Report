@@ -39,7 +39,7 @@ class WhereAmI {
 ![whereami](WhereAmIscreenshot.png)
 * We can use the command `$ scp WhereAmI.java cs15lwi22abc@ieng6.ucsd.edu:~/` in order to copy this file to our home directory in the server, which we can check by using `ls`.
 
-## Step 5:Setting an SSH key
+## Step 5: Setting an SSH key
 * By seting up an SSH key using `$ ssh-keygen`, a pair of files is created, one for the client and one for the server.
 * After entering  `$ ssh-keygen` in the terminal, you should see something like this:
 ![sshkey](ssh-keygen.png)
@@ -50,7 +50,7 @@ class WhereAmI {
 ![sshkes](sshkeys.png)
 * You will now be able to ssh into the server without any password.
 
-## Step 6:Optimizing Remote Running
+## Step 6: Optimizing Remote Running
 * There are some ways you can make running commands faster.
 * For example, by adding "command" to the end of your ssh, you will ssh into the server and immediately run said command upon conncection:
 ![command](commandop.png)
