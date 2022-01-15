@@ -55,4 +55,4 @@ class WhereAmI {
 * For example, by adding "command" to the end of your ssh, you will ssh into the server and immediately run said command upon conncection:
 ![command](commandop.png)
 * Another optimization trick is using semicolons to run multiple commands (i.e `$ javac WhereAmI.java; java WhereAmI`)
-*Rather than re-typing commands, you also simply press the up key to cycle through previously used commands
+* Rather than re-typing commands, you also simply press the up key to cycle through previously used commands
