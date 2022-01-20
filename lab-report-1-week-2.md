@@ -21,6 +21,8 @@ This lab will be a tutorial on how to set up, connect to, and use the *ieng6* se
 * Next we will be trying various commands in the terminal such as `cd` or `ls` and learning what they do.
 * For example, `ls` prints the contents of the current directory:
 ![ls](lsTest.png)
+While `pwd` prints out the current working directory:
+![pwd](pwd.png)
 * We can learn more commands from [here](https://www.hostinger.com/tutorials/linux-commands) 
 
 ## Step 4: Moving files with `scp`
@@ -52,7 +54,7 @@ class WhereAmI {
 
 ## Step 6: Optimizing Remote Running
 * There are some ways you can make running commands faster.
-* For example, by adding "command" to the end of your ssh, you will ssh into the server and immediately run said command upon conncection:
+* For example, by adding `insert some command here` to the end of your ssh, you will ssh into the server and immediately run said command upon conncection:
 ![command](commandop.png)
 * Another optimization trick is using semicolons to run multiple commands (i.e `$ javac WhereAmI.java; java WhereAmI`)
-* Rather than re-typing commands, you also simply press the up key to cycle through previously used commands
+* Rather than re-typing commands, you also simply press the up key to cycle through previously used commands; for example, it takes 12 keystrokes to type `java WhereAmI` everytime you want to rerun it versus the one key keystroke to recall it
