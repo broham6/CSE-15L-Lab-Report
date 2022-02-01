@@ -8,9 +8,9 @@
         at java.base/java.lang.String.substring(String.java:1907)
         at MarkdownParse.getLinks(MarkdownParse.java:20)
         at MarkdownParse.main(MarkdownParse.java:37)
- * Fix: Added a try and catch statement that would print out an error message telling the user that the markdown file is using the incorrect format - !
+ * Fix: Added a try and catch statement that would print out an error message telling the user that the markdown file is using the incorrect format - ![bug1](MarkdownParse-bug1commit.png)
  
- 
+ ****** Not Finished. Currently waiting on some assitance from my lab lead. Will update when finished. ******
         
 Bug 2 (lab 3): Parantheses in the middle of link; symptom: Incorrect output; console output:
 [parantheses-in-the-middle(, link.html]
