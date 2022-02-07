@@ -20,4 +20,4 @@
 * **Bug 3:** I made a ![test-file]() with a space in between the brackets and the parantheses that contained words in it.
 * Symptom: There was an infinite loop.
 * Console Output: None, I had to stop running the program.
-* Fix: I altered the if-else statement in my try statement to break if the next character after the close bracket wasn't an open paranthesis.
+* Fix: I altered the if-else statement in my try statement to break if the next character after the close bracket wasn't an open paranthesis: ![fix](elsealtr.png)
