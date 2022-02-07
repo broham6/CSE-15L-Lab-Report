@@ -11,13 +11,13 @@
  * Fix: Added a try and catch statement that would print out an error message telling the user that the markdown file is using the incorrect format: ![bug1](MarkdownParse-bug1commit.png)
  
         
-* **Bug 2:** I made a ![test-file](https://github.com/broham6/markdown-parse/blob/62506afb52aca5ef8605e15ea9118e527ab7eb9e/breaking-test2.md) with a pair of parantheses in the middle of the link.
+* **Bug 2:** I made a ![test-file](https://github.com/broham6/markdown-parse/blob/main/breaking-test2.md) with a pair of parantheses in the middle of the link.
 * Symptom: The code printed the incorrect output
 * Console Output:[parantheses-in-the-middle(, link.html]
 * Fix: I made a while loop that would locate the correct closing parantheses: ![image](breakingtest2history.png)
 * Note: The deleted parantheses were to see console ouput before the fix was added.
         
-* **Bug 3:** I made a ![test-file](https://github.com/broham6/markdown-parse/blob/3c57d5e5b9996f29523cd9505c25105801dded96/breaking-test3.md) with a space in between the brackets and the parantheses that contained words in it.
+* **Bug 3:** I made a ![test-file](https://github.com/broham6/markdown-parse/blob/main/breakingtest3.md) with a space in between the brackets and the parantheses that contained words in it.
 * Symptom: There was an infinite loop.
 * Console Output: None, I had to stop running the program.
 * Fix: I altered the if-else statement in my try statement to break if the next character after the close bracket wasn't an open paranthesis: ![fix](elsealtr.png)
