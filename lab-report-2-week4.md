@@ -1,6 +1,6 @@
 **Lab Report 2:**
 
-* Bug 1 (lab 3): I made a [test-file](https://github.com/broham6/markdown-parse/blob/7d0bcc8c297db6f6afbab1a5617037147b82576e/breaking-test.md) with no parentheses.
+* **Bug 1:** I made a [test-file](https://github.com/broham6/markdown-parse/blob/7d0bcc8c297db6f6afbab1a5617037147b82576e/breaking-test.md) with no parentheses.
 * Symptom: The program searchs for the parentheses but doesn't find any, resulting in a IndexOutOfBoundsException being thrown.
 * Console output: 
         Exception in thread "main" java.lang.StringIndexOutOfBoundsException: begin 0, end -1, length 6
@@ -10,11 +10,11 @@
         at MarkdownParse.main(MarkdownParse.java:37)
  * Fix: Added a try and catch statement that would print out an error message telling the user that the markdown file is using the incorrect format - ![bug1](MarkdownParse-bug1commit.png)
  
- ****** Not Finished. Currently waiting on some assitance from my lab lead. Will update when finished. ******
         
-* Bug 2 (lab 3): Parantheses in the middle of link; 
-* Symptom: Incorrect output; 
-* Console output: 
-[parantheses-in-the-middle(, link.html]
+* **Bug 2:** Parantheses in the middle of link
+* Symptom: Incorrect output
+* Console output:[parantheses-in-the-middle(, link.html]
+* Fix: I made a while loop that would locate the correct closing parantheses: ![image](breakingtest2history.png)
+* Note: The deleted parantheses were to see console ouput before the fix was added.
         
-Error for bug 3 (lab 4): 
+* **Bug 3:** 
