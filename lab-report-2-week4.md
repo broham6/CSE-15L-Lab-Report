@@ -17,7 +17,7 @@
 * Fix: I made a while loop that would locate the correct closing parantheses: ![image](breakingtest2history.png)
 * Note: The deleted parantheses were to see console ouput before the fix was added.
         
-* **Bug 3:** I made a ![test-file]() with a space in between the brackets and the parantheses that contained words in it.
+* **Bug 3:** I made a ![test-file](https://github.com/broham6/markdown-parse/blob/3c57d5e5b9996f29523cd9505c25105801dded96/breaking-test3.md) with a space in between the brackets and the parantheses that contained words in it.
 * Symptom: There was an infinite loop.
 * Console Output: None, I had to stop running the program.
 * Fix: I altered the if-else statement in my try statement to break if the next character after the close bracket wasn't an open paranthesis: ![fix](elsealtr.png)
