@@ -12,7 +12,9 @@
  
  ****** Not Finished. Currently waiting on some assitance from my lab lead. Will update when finished. ******
         
-Bug 2 (lab 3): Parantheses in the middle of link; symptom: Incorrect output; console output:
+* Bug 2 (lab 3): Parantheses in the middle of link; 
+* Symptom: Incorrect output; 
+* Console output: 
 [parantheses-in-the-middle(, link.html]
         
 Error for bug 3 (lab 4): 
