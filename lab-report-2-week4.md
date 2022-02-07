@@ -8,7 +8,7 @@
         at java.base/java.lang.String.substring(String.java:1907)
         at MarkdownParse.getLinks(MarkdownParse.java:20)
         at MarkdownParse.main(MarkdownParse.java:37)
- * Fix: Added a try and catch statement that would print out an error message telling the user that the markdown file is using the incorrect format - ![bug1](MarkdownParse-bug1commit.png)
+ * Fix: Added a try and catch statement that would print out an error message telling the user that the markdown file is using the incorrect format: ![bug1](MarkdownParse-bug1commit.png)
  
         
 * **Bug 2:** I made a ![test-file](https://github.com/broham6/markdown-parse/blob/62506afb52aca5ef8605e15ea9118e527ab7eb9e/breaking-test2.md) with a pair of parantheses in the middle of the link.
