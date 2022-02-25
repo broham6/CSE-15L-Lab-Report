@@ -1,4 +1,5 @@
 **Lab Report 4:**
+
 *Snippet 1:* 
 - Expected ouput: ['google.com, google.com, ucsd.edu]
 - Tests did not pass for both impmentations.
