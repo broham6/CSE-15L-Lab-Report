@@ -1,23 +1,23 @@
 **Lab Report 4:**
 *Snippet 1:* 
 - Expected ouput: ['google.com, google.com, ucsd.edu]
-- Test did not pass for both impmentations.
+- Tests did not pass for both impmentations.
 
 *Snippet 2:*
 - Expected output: [a.com, a.com(()), example.com]
-- Test did not pass for both implementations.
+- Tests did not pass for both implementations.
 
 *Snippet 3:*
 - Expected output: [https://ucsd-cse15l-w22.github.io/]
-- Test did not pass for both impmentations.
+- Tests did not pass for both impmentations.
 
 *Results:*
-- Mine: 
-- Reviewed Implementation:
+- Mine: ![myresults](myReporesults.png)
+- Reviewed Implementation: ![theirResults](reviewedReporesults.png)
 
 *Tests:*
-- Mine:
-- Reviewed Implementation:
+- Mine: ![mytests](myRepotests.png)
+- Reviewed Implementation: ![theirtests](reviewedRepoTest.png)
 
 *Questions:*
 - I believe a fix could be made in the case of backticks that would be less than 10 lines. We would have to implement our normal bracket
