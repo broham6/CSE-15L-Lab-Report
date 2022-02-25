@@ -4,6 +4,7 @@
 * [Link to lab report 1](https://broham6.github.io/CSE-15L-Lab-Report/lab-report-1-week-2.html)
 * [Link to lab report 2](https://broham6.github.io/CSE-15L-Lab-Report/lab-report-2-week4.html)
 * [Link to lab report 3](https://broham6.github.io/CSE-15L-Lab-Report/lab-report-3-week-6.html)
+* [Link to lab report 4](https://broham6.github.io/CSE-15L-Lab-Report/lab-report-4-week-8.html)
 
 # Here is a picture of a turtle:
 - ![turtle](https://s28164.pcdn.co/files/sea-turtle-iStock_000011381141Large-e1547156592926-1280x720.jpg)
