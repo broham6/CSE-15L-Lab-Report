@@ -1,5 +1,8 @@
 **Lab Report 4:**
 
+- My Repo: https://github.com/broham6/markdown-parse
+- Reviewed Repo: https://github.com/atruong39/markdown-parse
+
 *Snippet 1:* 
 - Expected ouput: ['google.com, google.com, ucsd.edu]
 - Tests did not pass for both impmentations.
