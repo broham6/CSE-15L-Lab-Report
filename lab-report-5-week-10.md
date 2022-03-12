@@ -19,4 +19,4 @@
 - Class repo output:[#fragment, http://example.com#fragment, http://example.com?foo=3#frag]
 - The expected output is the same as the class repo output.
 - I'm not exactly sure the reason for this difference in outputs since these should be simple links, and when test my MarkdownParse file against these specific links, they work. Hence, it seems that this bug is caused by the running the case with the script somehow.
-- ![markdownParse]()
+- ![markdownParse](checkingTestcase.png)
