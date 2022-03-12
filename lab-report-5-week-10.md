@@ -6,15 +6,15 @@
 - 518.md: [foo *[bar [baz](/uri)](/uri)*](/uri)
 - My repo output: []
 - Class repo output: [/uri]
-- The expected output is [/uri] with the working link being [baz](/uri), meaning my implementation is wrong. 
+- The expected output is [/uri] with the working link being [baz](/uri), according to [commonmark.js dingus](https://spec.commonmark.org/dingus/), meaning my implementation is wrong. 
 - The issue lies in my code's inability to handle complicated nested links. Improving the parsing for brackets and paranthesis should fix this issue. 
 
 *Test 2:*
-- 500.md: [link](#fragment)
+- 500.md: [link] (#fragment)
 
-[link](http://example.com#fragment)
+[link] (http://example.com#fragment)
 
-[link](http://example.com?foo=3#frag)
+[link] (http://example.com?foo=3#frag) //Spaces added to not turn them into links
 - My repo output: []
 - Class repo output:[#fragment, http://example.com#fragment, http://example.com?foo=3#frag]
 - The expected output is the same as the class repo output.
